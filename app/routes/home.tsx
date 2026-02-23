@@ -1,6 +1,11 @@
+import {Hero} from "components/index"
+import {HeroContent} from "../constants/texts";
+
 const home = () => {
   return (
-    <div>home</div>
+    <main>
+      <Hero title={HeroContent.title} subtitle={HeroContent.subtitle} highlights={HeroContent.highlights}/>
+    </main>
   )
 }
 

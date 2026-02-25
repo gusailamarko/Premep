@@ -3,3 +3,4 @@ export {default as CTAButton} from './CTAButton';
 export {default as Program} from './Program';
 export {default as InPractice} from './InPractice';
 export {default as InPracticeCard} from './InPracticeCard';
+export {default as Participation} from './Participation';

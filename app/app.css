@@ -216,6 +216,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .cards
@@ -239,4 +240,32 @@ body {
   border-radius: 10px;
   background-color: #f4bc43;
   color: black;
+}
+
+/*PARTICIPATION SECTION*/
+.participation-content
+{
+  background-color: #f4bc43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.participation-listItem
+{
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+}
+
+.participation-img
+{
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
 }

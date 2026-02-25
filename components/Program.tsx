@@ -38,7 +38,7 @@ const Program = () => {
         </div>
         <div className="program-text w-[90%] md:w-[45%]">
             <h2 className="text-[2rem] md:text-[3rem] text-black text-center font-bold italic uppercase mb-5">MI EZ A PROGRAM?</h2>
-            <div className="text-[1.25rem] text-black text-justify font-semibold text-gray-800 flex flex-col gap-3">
+            <div className="text-[1.25rem] text-justify font-semibold text-gray-800 flex flex-col gap-3">
                 <p>2026-ban a Premep olyan energiahatékonysági programot indított, amelynek célja, hogy minél több magyar családi ház alacsonyabb rezsivel és magasabb komforttal működjön.</p>
                 <p>A program nem utólagos támogatás, és nem pénzvisszatérítésre épül.</p>
                 <p>A segítség azonnal, kézzelfogható formában érkezik.</p>

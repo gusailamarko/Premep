@@ -14,6 +14,7 @@ body {
   }
 
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /*HERO SECTION*/
@@ -130,13 +131,13 @@ body {
   }
 }
 
-.ctaButton a
+.ctaButton
 {
   display: inline-block;
   animation: bounceChar 1.6s ease-in-out infinite;
 }
 
-.ctaButton a button, .ctaButton a button:hover
+.ctaButton button, .ctaButton button:hover
 {
   cursor: pointer;
 }
@@ -250,6 +251,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 2rem;
   width: 100%;
   border-bottom: 2px solid black;
 }
@@ -268,4 +270,119 @@ body {
   height: auto;
   border: 2px solid black;
   border-radius: 10px;
+}
+
+/*APPLICATION SECTION*/
+.apply-content
+{
+  background-color: rgb(31, 62, 109);
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.applyCards
+{
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.applyCard
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #f4bc43;
+  gap: 0.5rem;
+  height: auto;
+}
+
+.applyCard-points
+{
+  display: flex;
+  align-items: center;
+}
+
+.applyCard-listItem::before
+{
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("/icons/pen-fill.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+/*FORM*/
+.form-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form
+{
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border: 5px solid #f4bc43;
+}
+
+.form div
+{
+  width: 100%;
+}
+
+.form div label
+{
+  display: block;
+  text-align: left;
+  padding-bottom: 0.2rem;
+}
+
+.form div input, select
+{
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.submitBtn
+{
+  display: block;
+  margin: auto;
+  background-color: rgb(31, 62, 109);
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.form-disclaimer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }

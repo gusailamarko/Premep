@@ -1,6 +1,6 @@
 const Participation = () => {
   return (
-    <div className="participation-content">
+    <div className="participation-content py-[3rem]">
         <div className="w-[90%] md:w-[45%]">
             <div className="text-center flex flex-col items-center">
                 <h2 className="text-[2rem] md:text-[3rem] text-black font-bold italic uppercase pt-[3rem] pb-5">KIK VEHETNEK RÉSZT?</h2>

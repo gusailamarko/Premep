@@ -24,3 +24,16 @@ export const PracticeCardContent = [
         ui: "Szabd otthonod igényeihez a hőmérsékletet, akár ingyenes beszereléssel!"
     }
 ]
+
+export const ApplicationTexts = [
+    {
+        title: "HOGYAN TÖRTÉNIK A JELENTKEZÉS?",
+        points: ["Kitölti az alábbi rövid űrlapot", "Munkatársunk felveszi Önnel a kapcsolatot", "Ellenőrizzük a jogosultságot", "Megtörténik a kivitelezői egyeztetés", "Indulhat a korszerűsítés"],
+        disclaimer: "Az űrlap kitöltése nem jár kötelezettséggel!"
+    },
+    {
+        title: "MIÉRT ÉRDEMES MOST JELENTKEZNI?",
+        points: ["Az energiaárak tartósan magasak", "A korszerűsítés költsége folyamatosan nő", "A program korlátozott kapacitással működik"],
+        disclaimer: "Minél előbb jelentkezik, annál nagyobb az esély a bekerülésre!"
+    }
+]

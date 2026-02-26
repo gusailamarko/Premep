@@ -19,3 +19,10 @@ declare interface PracticeCardProps
     listItems: Array,
     ui: string
 }
+
+declare interface ApplicationCardProps
+{
+    title: string,
+    points: Array,
+    disclaimer: string 
+}

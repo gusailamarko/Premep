@@ -7,3 +7,4 @@ export {default as Participation} from './Participation';
 export {default as Application} from './Application';
 export {default as ApplicationCard} from './ApplicationCard';
 export {default as Form} from './Form';
+export {default as Close} from './Close';

@@ -1,4 +1,4 @@
-import {Application, Hero, InPractice, Participation, Program} from "components/index"
+import {Application, Hero, InPractice, Participation, Program, Close} from "components/index"
 import {HeroContent} from "../constants/texts";
 
 const home = () => {
@@ -9,6 +9,7 @@ const home = () => {
       <InPractice />
       <Participation />
       <Application/>
+      <Close />
     </main>
   )
 }

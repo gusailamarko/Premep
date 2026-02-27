@@ -28,7 +28,7 @@ export const PracticeCardContent = [
 export const ApplicationTexts = [
     {
         title: "HOGYAN TÖRTÉNIK A JELENTKEZÉS?",
-        points: ["Kitölti az alábbi rövid űrlapot", "Munkatársunk felveszi Önnel a kapcsolatot", "Ellenőrizzük a jogosultságot", "Megtörténik a kivitelezői egyeztetés", "Indulhat a korszerűsítés"],
+        points: ["Kitölti az alábbi rövid űrlapot", "Munkatársunk felveszi Önnel a kapcsolatot", "Ellenőrizzük a jogosultságot", "Megtörténik a személyes egyeztetés", "Megkötjük a kivitelezői szerződést"],
         disclaimer: "Az űrlap kitöltése nem jár kötelezettséggel!"
     },
     {

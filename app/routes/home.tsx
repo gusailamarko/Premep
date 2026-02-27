@@ -1,4 +1,4 @@
-import {Application, Hero, InPractice, Participation, Program, Close} from "components/index"
+import {Application, Hero, InPractice, Participation, Program, Close, Footer} from "components/index"
 import {HeroContent} from "../constants/texts";
 import { useEffect } from "react";
 import { setMetaTag } from "~/lib/utils";
@@ -16,6 +16,7 @@ const home = () => {
       <Participation />
       <Application/>
       <Close />
+      <Footer />
     </main>
   )
 }

@@ -5,7 +5,6 @@ const Program = () => {
   
   const images = [
     { src: "/imgs/_megtakarítás.png", alt: "Megtakarítást ábrázoló kép"},
-    { src: "/imgs/_klíma.png", alt: "Klíma beszerelés" },
     { src: "/imgs/_lábazat.png", alt: "Épület lábazata" },
     { src: "/imgs/_kiegészítők.jpg", alt: "Kiegészítők" }
   ];

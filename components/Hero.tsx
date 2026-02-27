@@ -6,6 +6,7 @@ const Hero = ({title, subtitle, highlights}:HeroProps) => {
     <div className="heroContent">
         <div className="heroContent-container">
             <div className="heroContent-texts text-black w-[90%] md:w-[45%]">
+                <img className="w-full pb-3" src="/imgs/premep_logo.png" alt="Premep Logó" />
                 <h1 className="text-[1.2rem] md:text-[1.5rem] font-bold uppercase underline mb-2">{title}</h1>
                 <h2 className="text-[0.8rem] md:text-[1rem] font-bold italic uppercase">{subtitle}</h2>
                 <div className="flex justify-center flex-wrap lg:flex-nowrap gap-3 my-5">

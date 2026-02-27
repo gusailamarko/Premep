@@ -391,10 +391,17 @@ body {
 .close-content
 {
   background-color: #f4bc43;
+  border-bottom: 2px solid black;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+}
+
+/*FOOTER SECTION*/
+.footer
+{
+  background-color: rgb(32,36,37);
 }

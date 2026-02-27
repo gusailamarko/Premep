@@ -7,7 +7,7 @@ const Close = () => {
       
   const images = [
     { src: "/imgs/_fehér.jpg", alt: "Kép egy elkészült (fehér) házról"},
-    { src: "/imgs/_padlásfödém.png", alt: "Kép egy padlásfödémről" },
+    { src: "/imgs/_klíma.png", alt: "Klíma beszerelés" },
     { src: "/imgs/_grafit saját.jpg", alt: "Kép egy kész (grafit színű) családi házról" }
   ];
     

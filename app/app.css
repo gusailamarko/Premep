@@ -21,7 +21,7 @@ body {
 .heroContent
 {
   width: 100vw;
-  background-image: url('/imgs/_heroBg.png');
+  background-image: url('/imgs/_heroBg.webp');
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 2px solid black;

@@ -4,9 +4,9 @@ const Program = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const images = [
-    { src: "/imgs/_megtakarítás.png", alt: "Megtakarítást ábrázoló kép"},
-    { src: "/imgs/_lábazat.png", alt: "Épület lábazata" },
-    { src: "/imgs/_kiegészítők.jpg", alt: "Kiegészítők" }
+    { src: "/imgs/_megtakarítás.webp", alt: "Megtakarítást ábrázoló kép"},
+    { src: "/imgs/_lábazat.webp", alt: "Épület lábazata" },
+    { src: "/imgs/_kiegészítők.webp", alt: "Kiegészítők" }
   ];
 
   const goToPrevious = () => {

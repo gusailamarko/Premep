@@ -15,7 +15,7 @@ const Participation = () => {
             </div>
         </div>
         <div className="w-[90%] md:w-[45%]">
-            <img className="participation-img my-10" src="/imgs/_kész ház.png" alt="Kép egy kész házról, ami részt vehetett a programban" />
+            <img className="participation-img my-10" src="/imgs/_kész ház.webp" alt="Kép egy kész házról, ami részt vehetett a programban" />
         </div>
     </div>
   )

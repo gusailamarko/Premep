@@ -6,9 +6,9 @@ const Close = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
       
   const images = [
-    { src: "/imgs/_fehér.jpg", alt: "Kép egy elkészült (fehér) házról"},
-    { src: "/imgs/_klíma.png", alt: "Klíma beszerelés" },
-    { src: "/imgs/_grafit saját.jpg", alt: "Kép egy kész (grafit színű) családi házról" }
+    { src: "/imgs/_fehér.webp", alt: "Kép egy elkészült (fehér) házról"},
+    { src: "/imgs/_klíma.webp", alt: "Klíma beszerelés" },
+    { src: "/imgs/_grafit saját.webp", alt: "Kép egy kész (grafit színű) családi házról" }
   ];
     
   const goToPrevious = () => {

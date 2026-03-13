@@ -1,6 +1,6 @@
-const InPracticeCard = ({id, title, desc, listTitle, listItems, ui}:PracticeCardProps) => {
+const InPracticeCard = ({id, title, desc, listTitle, listItems, ui, importantHighlight, important}:PracticeCardProps) => {
   return (
-    <div className="card-content w-[90%] md:w-[40%] h-full">
+    <div className="card-content w-[90%] md:w-[40%]">
         <div className="text-center">
             <h3 className="text-[1.2rem] font-bold italic uppercase">{id}. {title}</h3>
             <h4 className="text-[0.8rem] text-gray-800 font-semibold">{desc}</h4>
@@ -17,6 +17,7 @@ const InPracticeCard = ({id, title, desc, listTitle, listItems, ui}:PracticeCard
         <hr className="w-full text-black m-0 p-0"/>
         <div className="text-center">
             <p className="text-[1rem] text-gray-800 font-semibold uppercase">{ui}</p>
+            <p className="text-[1rem] text-gray-800 font-semibold italic mt-3"><span className="text-red-600">{importantHighlight}</span> {important}</p>
         </div>
     </div>
   )

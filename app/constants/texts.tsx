@@ -13,7 +13,9 @@ export const PracticeCardContent = [
         desc: "A programban részt vevő ingatlanok számára a homlokzati hőszigeteléshez szükséges alapanyagot térítésmentesen biztosítjuk.",
         listTitle: "Ez valódi ingyenességet jelent:",
         listItems: ["Nincs visszatérítés, se kaució", "Nem kell előre megvásárolni", "Nem utólag kapja vissza az árát"],
-        ui: "Amint megszületik a megállapodás a kivitelezővel, az alapanyagot már küldjük is!"
+        ui: "Amint megszületik a megállapodás a kivitelezővel, az alapanyagot már küldjük is!",
+        importantHighlight: "Fontos!",
+        important: "A kivitelezés díjköteles. Az ár az ingatlan elhelyezkedésétől függően 10 000–14 000 Ft / m² között alakul."
     },
     {
         id: 2,

@@ -17,7 +17,9 @@ declare interface PracticeCardProps
     desc: string,
     listTitle: string,
     listItems: Array,
-    ui: string
+    ui: string,
+    importantHighlight: any,
+    important: any
 }
 
 declare interface ApplicationCardProps

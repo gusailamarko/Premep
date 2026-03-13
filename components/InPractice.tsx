@@ -7,7 +7,7 @@ const InPractice = () => {
         <h2 className="text-[2rem] md:text-[3rem] text-white text-center font-bold italic uppercase w-[90%] mb-5">MIT JELENT EZ A GYAKORLATBAN?</h2>
         <div className="cards">
             {PracticeCardContent.map((card, index) => (
-                <InPracticeCard key={index} id={card.id} title={card.title} desc={card.desc} listTitle={card.listTitle} listItems={card.listItems} ui={card.ui}/>
+                <InPracticeCard key={index} id={card.id} title={card.title} desc={card.desc} listTitle={card.listTitle} listItems={card.listItems} ui={card.ui} importantHighlight={card.importantHighlight} important={card.important}/>
             ))}
         </div>
     </div>
